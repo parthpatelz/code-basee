@@ -1,0 +1,75 @@
+/* app/nutritionists/Nutritionists.module.css */
+
+.viewToggle {
+    margin-bottom: 20px;
+  }
+  
+  .viewToggle button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .listView .nutritionistItem {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .cardView {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .cardView .nutritionistItem {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  .nutritionistItem h2 {
+    margin: 0 0 10px;
+  }
+
+
+  /* Existing styles */
+
+.viewToggle {
+  margin-bottom: 20px;
+}
+
+.viewToggle button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* New styles for booking button */
+
+.bookButton {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #334155;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.bookButton:hover {
+  background-color: grey;
+}
+
+.bookButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+  
