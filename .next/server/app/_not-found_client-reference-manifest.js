@@ -1,0 +1,1 @@
+globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/_not-found"]={"ssrModuleMapping":{},"edgeSSRModuleMapping":{},"clientModules":{},"entryCSSFiles":{"C:\\Users\\ami89\\OneDrive\\Desktop\\Humber\\SEM4\\webdev\\next js\\next-project-five-code-crafters\\app\\not-found":[]}}
